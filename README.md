@@ -2,6 +2,8 @@
 
 Review the e-residence.hk priority number.
 
+Online Calculator: https://eresidence-hk.glitch.me/
+
 ## Crawl the Application Result
 
 #### Result
