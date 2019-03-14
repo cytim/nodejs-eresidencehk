@@ -1,0 +1,22 @@
+{
+  "name": "eresidencehk",
+  "version": "1.0.0",
+  "description": "Review the eresidence.hk priority number.",
+  "main": "search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cytim/nodejs-eresidencehk.git"
+  },
+  "keywords": [
+    "eresidence.hk"
+  ],
+  "author": "Tim Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cytim/nodejs-eresidencehk/issues"
+  },
+  "homepage": "https://github.com/cytim/nodejs-eresidencehk#readme"
+}
