@@ -33,3 +33,24 @@ For every 1 family application, there are 1.7471052631578947 one-person applicat
 ```js
 node stats.js
 ```
+
+## Calculate Your Batch
+
+#### Example
+
+```
+Note: Each batch consists of 10 applications [6 cat1 (family) + 4 cat2 (one-person)].
+
+Application no.: U300806
+Priority: 9
+Category: 2
+
+Order in the category: 5
+Batch: 2
+```
+
+#### Do It Yourself
+
+```js
+node calculate-batch.js
+```
