@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/cytim/nodejs-eresidencehk/issues"
   },
-  "homepage": "https://github.com/cytim/nodejs-eresidencehk#readme"
+  "homepage": "https://github.com/cytim/nodejs-eresidencehk#readme",
+  "dependencies": {
+    "axios": "~0.18.0",
+    "bluebird": "~3.5.3",
+    "cheerio": "~1.0.0-rc.2",
+    "csv": "~5.1.1"
+  }
 }
