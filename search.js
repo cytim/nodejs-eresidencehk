@@ -72,4 +72,4 @@ transformer
 const start = 100000
 const end = 303000
 const parallel = 100
-search(start, parallel, end).catch(start, parallel, end)
+search(start, parallel, end).catch(handleSearchError(start, parallel, end))
