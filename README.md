@@ -47,7 +47,7 @@ Application no.: U300806
 Priority: 9
 Category: 2
 
-Order in the category: 5
+Position in the category: 5
 Batch: 2
 ```
 

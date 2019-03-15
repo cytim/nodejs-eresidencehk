@@ -24,6 +24,7 @@ prompt.get([
     return
   }
 
+  id = id.toUpperCase()
   const target = applications.find((app) => app.id === id)
 
   if (!target) {
@@ -31,16 +32,15 @@ prompt.get([
     return
   }
 
-  const apps = applications
-    .filter((app) => app.category === target.category)
-    .sort((x, y) => x.priority - y.priority)
-  const i = apps.findIndex((app) => app.priority === target.priority)
+  const pos = applications
+    .filter((app) => app.category === target.category && app.priority <= target.priority)
+    .length
 
   let batch
   if (target.category === '1') {
-    batch = Math.floor(i / 6) + 1
+    batch = Math.ceil(pos / 6)
   } else {
-    batch = Math.floor(i / 4) + 1
+    batch = Math.ceil(pos / 4)
   }
 
   console.log(`
@@ -50,7 +50,7 @@ prompt.get([
     Priority: ${target.priority}
     Category: ${target.category}
 
-    Order in the category: ${i + 1}
+    Position in the category: ${pos}
     Batch: ${batch}
   `)
 })
